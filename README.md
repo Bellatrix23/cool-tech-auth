@@ -7,6 +7,7 @@ Welcome to the **Credentials Dashboard** repository. This project consists of a 
 ## Table of Contents
 
 - [Overview](#overview)
+- [Features](#features)
 - [Frontend](#frontend)
   - [Installation](#installation-frontend)
   - [Usage](#usage-frontend)
@@ -24,6 +25,20 @@ Welcome to the **Credentials Dashboard** repository. This project consists of a 
 ## Overview
 
 The Credentials Dashboard is designed to offer a user-friendly interface for managing credentials. Users can register, log in, and access a secure dashboard where they can add, view, and update credentials. The backend handles user authentication, authorization, and credential management using JWT, Express, and MongoDB.
+
+---
+
+## Features
+
+- **User Authentication:** Secure login and registration using JWT authentication.
+- **Role-Based Authorization:** Different access levels for users (e.g., normal users, management, and admin roles).
+- **Credential Management:** Add, view, and update credentials associated with different divisions.
+- **Division and OU Structure:** Organizes credentials into divisions and organizational units (OUs).
+- **Secure Storage:** Passwords are encrypted before storage.
+- **REST API Integration:** Communicates with a backend using secure API endpoints.
+- **Error Handling:** Displays user-friendly messages when errors occur.
+- **Responsive Design:** Built with Bootstrap for a seamless experience across devices.
+- **Notifications:** Uses React Toastify for success and error messages.
 
 ---
 
